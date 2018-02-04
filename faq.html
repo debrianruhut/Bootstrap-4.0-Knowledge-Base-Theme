@@ -56,17 +56,18 @@
   <!-- END TOP NAVIGATION -->
   <!-- SEARCH FIELD AREA -->
   <div class="searchfield bg-hed-six">
-    <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
-      <div class="row text-center margin-bottom-20">
-        <h1 class="white"> Knowledge Base</h1>
-        <span class="nested"> Learn to use gomac </span>
+      <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
+          <div class="row text-center margin-bottom-20">
+               <h1 class="white"> Knowledge Base</h1>
+                <span class="nested"> Learn to use gomac </span>
+          </div>
+          <br>
+          <div class="row search-row">
+            <div class="col-md-12">
+              <input type="text" class="search" placeholder="What do you need help with?"> <a class="buttonsearch btn btn-info btn-lg" href="search-results.html">Search</a>
+            </div>
+          </div>
       </div>
-      <br>
-      <div class="row search-row">
-        <input type="text" class="search" placeholder="What do you need help with?">
-        <a class="buttonsearch btn btn-info btn-lg" href="search-results.html">Search</a>
-      </div>
-    </div>
   </div>
   <!-- END SEARCH FIELD AREA -->
   <!-- MAIN SECTION -->
@@ -83,46 +84,45 @@
             <hr class="style-three">
             <div class="row">
               <div class="col-md-12">
-
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingOne">
-                      <h4 class="panel-title">
-                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <div id="accordion">
+                  <div class="card mb-1">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button  class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                           Collapsible Group Item #1
-                        </a>
-                      </h4>
+                        </button>
+                      </h5>
                     </div>
-                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                      <div class="panel-body">
+                    <div id="collapseOne" data-parent="#accordion" class="card-collapse collapse show" role="tabcard" aria-labelledby="headingOne">
+                      <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
                     </div>
                   </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingTwo">
-                      <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <div class="card mb-1">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                           Collapsible Group Item #2
-                        </a>
-                      </h4>
+                        </button>
+                      </h5>
                     </div>
-                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                      <div class="panel-body">
+                    <div id="collapseTwo" data-parent="#accordion" class="card-collapse collapse" role="tabcard" aria-labelledby="headingTwo">
+                      <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
                     </div>
                   </div>
-                  <div class="panel panel-default">
-                    <div class="panel-heading" role="tab" id="headingThree">
-                      <h4 class="panel-title">
-                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  <div class="card mb-1">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                           Collapsible Group Item #3
-                        </a>
-                      </h4>
+                        </button>
+                      </h5>
                     </div>
-                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                      <div class="panel-body">
+                    <div id="collapseThree" data-parent="#accordion" class="card-collapse collapse" role="tabcard" aria-labelledby="headingThree">
+                      <div class="card-body">
                         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
                       </div>
                     </div>
@@ -190,25 +190,25 @@
             </div>
             <hr class="style-three">
             <div class="fat-content-tags padding-left-10">
-              <a href="#" class="btn btn-default btn-o btn-sm">password</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">settings</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">sign up</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">currency</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">payment</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">user</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">database</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">storage</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">export</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">email</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">import</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">campaign</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">edit</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">orders</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">help</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">billing</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">user</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">configure</a>
-              <a href="#" class="btn btn-default btn-o btn-sm">customer</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">password</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">settings</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">sign up</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">currency</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">payment</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">user</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">database</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">storage</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">export</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">email</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">import</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">campaign</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">edit</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">orders</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">help</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">billing</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">user</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">configure</a>
+              <a href="#" class="btn btn-outline-secondary btn-sm">customer</a>
             </div>
           </div>
         </div>
@@ -221,9 +221,10 @@
   <!-- FOOTER -->
   <div class="container-fluid footer marg30">
     <div class="container">
+      <div class="row">
       <!-- FOOTER COLUMN ONE -->
       <div class="col-xs-12 col-sm-4 col-md-4 margin-top-20">
-        <div class="panel-transparent">
+        <div class="card-transparent">
           <div class="footer-heading">How it works</div>
           <div class="footer-body">
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
@@ -234,7 +235,7 @@
       <!-- END FOOTER COLUMN ONE -->
       <!-- FOOTER COLUMN TWO -->
       <div class="col-xs-12 col-sm-4 col-md-4 margin-top-20">
-        <div class="panel-transparent">
+        <div class="card-transparent">
           <div class="footer-heading">Categories</div>
           <div class="footer-body">
             <ul>
@@ -251,7 +252,7 @@
       <!-- END FOOTER COLUMN TWO -->
       <!-- FOOTER COLUMN THREE -->
       <div class="col-xs-12 col-sm-4 col-md-4 margin-top-20">
-        <div class="panel-transparent">
+        <div class="card-transparent">
           <div class="footer-heading">Popular Articles</div>
           <div class="footer-body">
             <ul>
@@ -267,21 +268,22 @@
       </div>
       <!-- END FOOTER COLUMN THREE -->
     </div>
+    </div>
   </div>
   <!-- END FOOTER -->
 
   <!-- COPYRIGHT INFO -->
   <div class="container-fluid footer-copyright marg30">
-    <div class="container">
-      <div class="pull-left">
-        Copyright © 2016 Sunny Gohil</a>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="float-left">Copyright &#xA9; 2016 Sunny Gohil</div>
+                  <div class="float-right"> <i class="fa fa-facebook"></i> &#xA0; <i class="fa fa-twitter"></i> &#xA0;
+                      <i class="fa fa-linkedin"></i>
+                  </div>
+              </div>
+          </div>
       </div>
-      <div class="pull-right">
-        <i class="fa fa-facebook"></i> &nbsp;
-        <i class="fa fa-twitter"></i> &nbsp;
-        <i class="fa fa-linkedin"></i>
-      </div>
-    </div>
   </div>
   <!-- END COPYRIGHT INFO -->
 
@@ -290,5 +292,10 @@
   <script src="js/main.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src='https://cdn.rawgit.com/VPenkov/okayNav/master/app/js/jquery.okayNav.js'></script>
+<!--   <script type="text/javascript">
+    $('#accordion').collapse({
+      toggle: true
+    })
+  </script> -->
   </body>
 </html>
