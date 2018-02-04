@@ -1,6 +1,6 @@
 ## Demo
 
-https://sunnyg1210.github.io/bootstrapKnowledgeBaseTheme/
+https://sunnyg1210.github.io/bootstrapKnowledgeBaseTheme/ (Original Version)
 
 https://debrianruhut.github.io/Bootstrap-4.0-Knowledge-Base-Theme/ (with Bootstrap 4.0 Version)
 
