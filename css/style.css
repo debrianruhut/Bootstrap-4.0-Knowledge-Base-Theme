@@ -428,12 +428,16 @@ h1.white {
 	color: white;
 	font-size: 40px;
 	font-family: sans-serif;
+	width: -moz-available;
+	width: fill-available;
 	width: -webkit-fill-available;
 }
 span.nested {
 	color: white;
 	font-size: 20px;
 	font-family: sans-serif;
+	width: -moz-available;
+	width: fill-available;
 	width: -webkit-fill-available;
 }
 
